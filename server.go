@@ -362,7 +362,7 @@ func sitemapHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 // Starts Server and Routes Requests
-func main() {
+func init() {
 	log.Println("Starting: " + config.Title)
 
 	http.HandleFunc("/archive", archiveHandler)
@@ -371,10 +371,6 @@ func main() {
 	http.HandleFunc("/assets/", assetHandler)
 	http.HandleFunc("/rss", rssHandler)
 	http.HandleFunc("/sitemap", sitemapHandler)
-	http.HandleFunc("/", postHandler)
 
-	err := http.ListenAndServe(":9981", nil)
-	if err != nil {
-		log.Fatal("ListenAndServe: ", err)
-	}
+	http.HandleFunc("/", postHandler)
 }
