@@ -1,20 +1,24 @@
-# Go-Blog
+# Clone of the [Go-Blog](https://github.com/matt-west/go-blog) project.
 
-A simple template based blog framework.
+Original documentation can be found there.
 
-## Instructions
+## Differences
 
-Built for GO version: 1
+1) Deployable to GAE
+2) Blog posts can be generated using the Markup
+3) Posts can use templates
 
-See the [Documentation](https://github.com/matt-west/go-blog/wiki/Getting-Started) or [Getting Started](https://github.com/matt-west/go-blog/wiki/Documentation) pages in the wiki.
+## Instructions to quick deploy your own blog/pages
 
-## Notes
+... here to be placed ...
 
-There is no 'CMS' and there never will be. They restrict you too much and I don't like them, so no.
+This project is deployed as a Demo [here](http://go-blog-gae.appspot.com/)
 
-Yes, you could use PHP to acheive the same result but PHP doesn't rock like GO does.
+My own [Home Pages/Blog](http://konakov.info) is hosted on the same code.
 
 ## License
+
+Honestly, I am not sure should I change something here or not. Let's leave it as-is.
 
 Licensed under MIT.
 
