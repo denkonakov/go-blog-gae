@@ -12,11 +12,11 @@ Original documentation can be found there.
 
 Used the [blackfriday](https://github.com/russross/blackfriday) library for parsing Markdown
 
-#### Instructions for quick creation your own blog/pages
+## How to use post generation
 
 I am using this blog under Windows, so if you need Shell scripts, you will have to create them.
 
-# Create new post: 
+####  Create new post: 
 
 1) newpost.bat test-first-post -> will crete the test-first-post.md in the "markdown" forlder.
 If you have "Meditor" set in the app.json then it will execute [Meditor] test-first-post.md
