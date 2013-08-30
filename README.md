@@ -16,9 +16,7 @@ Used the [blackfriday](https://github.com/russross/blackfriday) library for pars
 
 I am using this blog under Windows, so if you need Shell scripts, you will have to create them.
 
-####  Create new post: 
-
-1) newpost.bat test-first-post -> will crete the test-first-post.md in the "markdown" forlder.
+I) newpost.bat test-first-post -> will crete the test-first-post.md in the "markdown" forlder.
 If you have "Meditor" set in the app.json then it will execute [Meditor] test-first-post.md
 
 I am using the [Markdownpad 2](http://markdownpad.com/) and like it a lot so far.
@@ -39,15 +37,13 @@ Tags:
 Place your text here please -> Write your awesome text here
 </pre>
 
-2) generate.bat test-first-post -> will generate HTML and change the posts.json
+II) generate.bat test-first-post -> will generate HTML and change the posts.json
 
 This project is deployed as a Demo [here](http://go-blog-gae.appspot.com/)
 
 My own [Home Pages/Blog](http://konakov.info) is hosted on the same code.
 
-## License
-
-Honestly, I am not sure should I change something here or not. Let's leave it as-is.
+## License (this section is not changed section of the original project)
 
 Licensed under MIT.
 
