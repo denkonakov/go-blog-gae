@@ -4,5 +4,9 @@
 	"Description": "Some text about your site, keep it fairly short.",
 	"Lang": "en-gb",
 	"Editor": "editor@example.com",
-	"Webmaster": "webmaster@example.com"
+	"Webmaster": "webmaster@example.com",
+
+	"Mfolder": "markdown",
+	"Nptemplate": "np_template.md",
+	"Meditor": ""
 }

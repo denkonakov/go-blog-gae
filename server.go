@@ -15,6 +15,10 @@ type Config struct {
 	Lang        string
 	Editor      string
 	Webmaster   string
+
+	Mfolder     string
+	Nptemplate  string
+	Meditor     string
 }
 
 type Page struct {

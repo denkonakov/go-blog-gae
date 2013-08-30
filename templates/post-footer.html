@@ -1,0 +1,18 @@
+	</div>
+	<footer>
+		<div width="100%">
+			<span style="float: right"><time datetime="{{.MachineDate |html}}">Posted on: {{.Date |html}}</time></span>
+  			&nbsp;
+  		</div>	
+  		<br/>
+		<div width="100%">
+			<span style="float: right">
+				Tags: 
+				{{range .Tags}}
+					<a href="/tag/{{.}}">#{{.}}</a>&nbsp;
+				{{end}}
+			</span>
+  			<span style="float: left"><a href="{{.Slug}}#disqus_thread">Comments</a></span>
+  		</div>
+	</footer>
+</article>

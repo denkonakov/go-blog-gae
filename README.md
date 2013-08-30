@@ -5,12 +5,39 @@ Original documentation can be found there.
 ## Differences
 
 1) Deployable to GAE
-2) Blog posts can be generated using the Markup
+
+2) Blog posts can be generated using the Markdown
+
 3) Posts can use templates
+
+Used the [blackfriday](https://github.com/russross/blackfriday) library for parsing Markdown
 
 ## Instructions to quick deploy your own blog/pages
 
-... here to be placed ...
+I am using this blog under Windows, so if you need Shell scripts, you will have to create them.
+
+# Create new post: 
+
+1) newpost.bat test-first-post -> will crete the test-first-post.md in the "markdown" forlder.
+If you have "Meditor" set in the app.json then it will execute [Meditor] test-first-post.md
+
+I am using the [Markdownpad 2](http://markdownpad.com/) and like it a lot so far.
+
+Open test-first-post.md in the editor you like and edit it:
+
+------
+layout: post -> you can change the layout of the post, but you will have to create your own templte then
+Title: "Insert your title here" -> Change this to your title
+Slug: "test-first-post" -> leave this as it is
+Date: "2012-10-17 22:38" -> Change this to the date you want to be shown. Probably I will add this automatically later
+comments: yes -> leave this as it is. This is not realized yet. 
+Tags:
+- "java" -> I think this is quite obvious ;)
+- "job"
+------
+Place your text here please -> Write your awesome text here
+
+2) generate.bat test-first-post -> will generate HTML and change the posts.json
 
 This project is deployed as a Demo [here](http://go-blog-gae.appspot.com/)
 
