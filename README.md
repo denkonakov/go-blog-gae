@@ -12,7 +12,7 @@ Original documentation can be found there.
 
 Used the [blackfriday](https://github.com/russross/blackfriday) library for parsing Markdown
 
-## Instructions to quick deploy your own blog/pages
+#### Instructions for quick creation your own blog/pages
 
 I am using this blog under Windows, so if you need Shell scripts, you will have to create them.
 
@@ -25,6 +25,7 @@ I am using the [Markdownpad 2](http://markdownpad.com/) and like it a lot so far
 
 Open test-first-post.md in the editor you like and edit it:
 
+<pre>
 ------
 layout: post -> you can change the layout of the post, but you will have to create your own templte then
 Title: "Insert your title here" -> Change this to your title
@@ -36,6 +37,7 @@ Tags:
 - "job"
 ------
 Place your text here please -> Write your awesome text here
+</pre>
 
 2) generate.bat test-first-post -> will generate HTML and change the posts.json
 
