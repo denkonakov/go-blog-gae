@@ -8,13 +8,13 @@ Original documentation can be found there.
 
 2) Blog posts can be generated using the Markdown
 
-3) Posts can use templates
+3) Posts can include another templates
 
-Used the [blackfriday](https://github.com/russross/blackfriday) library for parsing Markdown
+The [blackfriday](https://github.com/russross/blackfriday) library is utilized for parsing Markdown
 
 ## How to use post generation
 
-I am using this blog under Windows, so if you need Shell scripts, you will have to create them.
+I am using this blog under Windows, so if you need Shell scripts, you will have to create them. Sorry.
 
 I) newpost.bat test-first-post -> will crete the test-first-post.md in the "markdown" forlder.
 If you have "Meditor" set in the app.json then it will execute [Meditor] test-first-post.md
@@ -41,9 +41,9 @@ II) generate.bat test-first-post -> will generate HTML and change the posts.json
 
 This project is deployed as a Demo [here](http://go-blog-gae.appspot.com/)
 
-My own [Home Pages/Blog](http://konakov.info) is hosted on the same code.
+My own [Home Pages/Blog](http://konakov.info) is using this code and hosted on GAE.
 
-## License (this section is not changed section of the original project)
+## License (this section is not modified from the original project)
 
 Licensed under MIT.
 
