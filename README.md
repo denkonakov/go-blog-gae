@@ -8,7 +8,7 @@ Original documentation can be found there.
 
 2) Blog posts can be generated using the Markdown
 
-3) Posts can include another templates
+3) Posts can include other templates
 
 The [blackfriday](https://github.com/russross/blackfriday) library is utilized for parsing Markdown
 
@@ -16,19 +16,19 @@ The [blackfriday](https://github.com/russross/blackfriday) library is utilized f
 
 I am using this blog under Windows, so if you need Shell scripts, you will have to create them. Sorry.
 
-I) newpost.bat test-first-post -> will crete the test-first-post.md in the "markdown" forlder.
+I) newpost.bat test-first-post -> will create the test-first-post.md in the "markdown" forlder.
 If you have "Meditor" set in the app.json then it will execute [Meditor] test-first-post.md
 
 I am using the [Markdownpad 2](http://markdownpad.com/) and like it a lot so far.
 
-Open test-first-post.md in the editor you like and edit it:
+Open test-first-post.md in the editor of your choice and edit it:
 
 <pre>
 ------
 layout: post -> you can change the layout of the post, but you will have to create your own templte then
 Title: "Insert your title here" -> Change this to your title
 Slug: "test-first-post" -> leave this as it is
-Date: "2012-10-17 22:38" -> Change this to the date you want to be shown. Probably I will add this automatically later
+Date: "2012-10-17 22:38" -> Change this to the date you want to be displayed. Probably I will add this automatically later
 comments: yes -> leave this as it is. This is not realized yet. 
 Tags:
 - "java" -> I think this is quite obvious ;)
