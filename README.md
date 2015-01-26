@@ -41,7 +41,7 @@ II) generate.bat test-first-post -> will generate HTML and change the posts.json
 
 This project is deployed as a Demo [here](http://go-blog-gae.appspot.com/)
 
-My own [Home Pages/Blog](http://konakov.info) is using this code and hosted on GAE.
+I personally do not use this blog engine anymore.
 
 ## License (this section is not modified from the original project)
 
